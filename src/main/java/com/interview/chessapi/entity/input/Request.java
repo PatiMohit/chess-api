@@ -1,6 +1,6 @@
 package com.interview.chessapi.entity.input;
 
-public class Ready {
+public class Request {
     String value;
 
     public String getValue() {

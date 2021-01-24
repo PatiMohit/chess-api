@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.Entity;
 
+
 @Entity
 public class Game {
     @Autowired

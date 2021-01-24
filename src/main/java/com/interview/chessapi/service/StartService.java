@@ -2,7 +2,6 @@ package com.interview.chessapi.service;
 
 import com.interview.chessapi.entity.Game;
 import com.interview.chessapi.entity.Player;
-import com.interview.chessapi.entity.input.Ready;
 import com.interview.chessapi.entity.input.Start;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
