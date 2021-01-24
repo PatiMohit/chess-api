@@ -27,8 +27,9 @@ public class Play {
         Request convertedObject = new Gson().fromJson(inputPayLoad, Request.class);
 
         System.out.println("Converted object : "+convertedObject);
-        if(convertedObject.getValue().equals("START")) {
-            startService.startMatch();
+        System.out.println(convertedObject.getRequest());
+        if(convertedObject.getRequest().equals("START")) {
+            //startService.startMatch();
             Response response = new Response("READY");
             System.out.println( "set the value to Ready");
             return response;

@@ -1,13 +1,13 @@
 package com.interview.chessapi.entity.input;
 
 public class Request {
-    String value;
+    String request;
 
-    public String getValue() {
-        return value;
+    public String getRequest() {
+        return request;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public void setRequest(String request) {
+        this.request = request;
     }
 }
