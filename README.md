@@ -6,7 +6,7 @@ Notations - https://www.ichess.net/blog/chess-notation/
 
 Rules - https://www.chesscoachonline.com/chess-articles/chess-rules 
 
-Accptance :- 
+Acceptance :-
 1) When sent a post request with START , it should reset the game and return the response READY in body.
 2) When sent a post request with move in payload (using chess notations) it should return valid if it is valid move or else invalid.
 
@@ -31,4 +31,9 @@ Response:{
 }
 
 
+Version - 2 : -
 
+1) When sent a post request with START , it should reset the game and return the response READY in body along with userid/token
+consider this as game token.
+2) Pass this token in each request along with move.
+3) Api should allow multiple games to be played.
